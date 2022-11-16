@@ -1,0 +1,29 @@
+{
+    "nache123":
+    {
+        "name":"Neche iera",
+        "email":"nache123@gm.com",
+        "age":20,
+        "profession":"Developer"
+    },
+
+    "kelly65":
+    {
+        "name":"kelz mira",
+        "email":"kelly65@gm.com",
+        "age":20,
+        "beautiful":true,
+        "profession":"fullstack developer"
+    },
+
+    "enoch325":
+    {
+        "name":"Christ Enoch",
+        "email":"enochs@gm.com",
+        "age":20,
+        "profession":"Walker with God"
+    }
+    
+   
+    
+}

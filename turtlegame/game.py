@@ -33,6 +33,11 @@ player.shape("circle")
 player.penup()
 player.speed(0)
 
+#score
+
+score = 0
+
+
 
 #create multiple goals
 maxGoals = 6
@@ -102,11 +107,24 @@ while True:
         if goals[count].ycor() > 280 or goals[count].ycor() < -280:
           goals[count].right(180)
 
-          #collisionchecking
+        #collision checking
 
         if isCollision(player, goals[count]):
           goals[count].setposition(random.randint(-300,300), random.randint(-300,300))
           goals[count].right(random.randint(0,360))
+          score += 1
+
+          #draw score on screen
+          mypen.undo()
+          mypen.penup()
+          mypen.hideturtle()
+          mypen.setposition(-290, 310)
+          scorestring = "Score:%s" %score
+          mypen.write(scorestring, False, Align="left", Font=("Arial",14,"normal"))          
+
+        delay = input("press enter to finish")
+
+
 
 
 
