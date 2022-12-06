@@ -1,6 +1,0 @@
-{
-    "bank of mails":
-    { "faizy": "faizyedu81@gmail.com"
-     "emmanuella": "uhuoemmanuella007@gmail.com"
-    }
-}
